@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plataforma de Administración</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="login-card">
+      <h1>Bienvenido a la Plataforma</h1>
+      <form id="loginForm">
+        <div class="input-group">
+          <input type="text" id="username" placeholder="Usuario" required>
+        </div>
+        <div class="input-group">
+          <input type="password" id="password" placeholder="Contraseña" required>
+        </div>
+        <button type="submit" class="btn">Iniciar sesión</button>
+      </form>
+      <div id="error-message" class="error-message"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
